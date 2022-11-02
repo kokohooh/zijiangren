@@ -1,0 +1,231 @@
+
+.shuxianghezi{
+    flex-direction: column;
+}
+.hengzhe{
+    float: right;}
+.body {
+    margin: 0;
+    height: 100vh;
+    background-color: #47516B;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    background-color: white;
+  }
+  a{text-decoration:none} 
+  a:hover{text-decoration:none} 
+  a:hover img{filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+    body {
+      margin: 0;
+  
+      
+    }
+    .cgtl td, .cgtl th, .cgtl caption {
+        padding: 5px;
+        border-bottom: 1px solid #99876C;}
+  .flex{display: flex;
+
+  }
+  .baise{
+      background-color: white;
+  }
+  .ziti{
+    font-style: italic;
+ }
+ .board-indexlj {
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/10/29/LzVnSmBT1KlqOcs.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.board-indexrw {
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/10/29/wVGYOx6LvZNAa4C.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.board-indexsp {
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/02/TsKidpHQYxh8otg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.board-index {
+
+    background: url(https://s2.loli.net/2022/10/29/LzVnSmBT1KlqOcs.jpg) no-repeat center center fixed;
+        /*兼容浏览器版本*/}.a1{
+            background-position: center;              
+        background-size: cover;
+    }
+    .board-indexzhb {
+        background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/02/JDdfHx4mbFjAgZk.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .board-indexsz {background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s1.328888.xyz/2022/08/24/wh4MI.jpg);
+        
+        background-size: cover;
+        background-position: center;
+    }
+.name{
+    font-style: italic;
+    font-weight:500;
+ }
+ .yinying{
+    box-shadow: 7px 6px 5px #888888;
+}
+.typeoption .cgtl {
+    width: 100%;
+    
+}
+.hs {color: black;
+
+}
+
+.hs{color: black;
+
+}
+
+
+.dingbu{
+    background-color: white;
+    
+}
+.b:hover{
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.a{
+    
+    width: 60%;
+    position: relative;
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.b{
+    transition: .7s;
+    overflow: hidden;
+   } 
+   .glass{
+    background: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    border: 1px solid #fff
+    ;
+   }
+   @media (min-width:768px) {
+    .sun{
+        margin: 8px;
+        height: 45px;
+     }
+     .gif{
+        flex: 7;
+     }
+   }
+   
+  @media (min-width:1000px){
+.time{
+    font-size: 30px;
+    margin-top: 7px;
+}
+  }
+  @media (max-width:1000px){
+.time{
+    font-size: 30px;
+    margin-top: 7px;
+}
+  }
+/*屏幕宽度小于768px时*/
+@media(max-width:768px) {
+ .xuanchuantu{
+    content: url(https://s1.328888.xyz/2022/08/24/waaDI.gif);
+ }   
+ .gif{
+    flex: 15;
+ }
+ .sun{
+    margin: 5px;
+    height: 40px;
+ }
+.suoshui{
+width: 50%;
+}
+.time{
+    font-size: 24px;
+}
+.dingbu{
+width:100%;
+
+}
+.dingbu2{
+    width: 100%;}
+.wu{
+display: none;
+}
+.tupian{
+
+width: 100%;
+}
+.tp{
+    width: 100%;
+}
+.tp2{
+    width: 100%;
+}
+}
+.long{
+    font-size: 10px;
+}
+/*屏幕宽度大于768px时*/
+@media(min-width:768px){
+    .diannao{
+        width: 20%;
+    }
+    .dingbu2{
+
+height:30px;}
+
+    .gao30{
+
+height:30px;
+}
+.tp{
+    width: 51%;
+}
+.dn{
+    width: 50%;
+    height: 1%;
+}
+.tp2{
+    width: 90%;
+}
+
+}
+@media (min-width: 786px){
+    .recommend-container__2-line {
+        grid-column: span 4;
+        grid-template-columns: repeat(4,1fr);
+    }}
+    .recommend-container__2-line {
+        position: relative;
+    }
+    .recommend-container__2-line {
+        width: 100%;
+        display: grid;
+        grid-gap: 20px 12px;
+    }
+    
+    @media (max-width:550px) {
+        .time{
+            font-size: 22px;
+        }
+       }
+    @media (max-width:360px) {
+        .time{
+            font-size: 17px;
+        }
+        .sun{
+            margin: 5px;
+            height: 30px;
+         }
+       }
