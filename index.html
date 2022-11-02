@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>子酱人官网</title>
+    <link rel="icon" href="tupian/logo4.ico">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <style>
+
+      </style>
+</head>
+<body onload="load()" style="color: white;-webkit-background-size: cover;
+-o-background-size: cover;                
+background-size: cover;" class="flex shuxianghezi board-index a1" > 
+<!--上边-->
+<div class="" style="display: flex;">
+  <img id="sun" src="tupian/sun2.png" alt="" class="sun"><div id="clock" style="font-family: inherit;font-weight: 800;  margin-left: 5px;" class="time"></div><a class="" style="width: 100%;"><img style="width: 33%;" class="wu" src="tupian/kongbai.png" alt="" ></a>
+  <a class="gao30"  href="mclianji.html"><img style="border-radius: 40px;margin-right: 10px; margin-top: 10px ;" class="dingbu dingbu2 " src="https://s2.loli.net/2022/10/29/GfLQhClz1oDBMHe.png" alt="smp" ></a>
+  <a><img style="width:4px ;" src="tupian/kongbai.png" alt="" ></a>
+   <a  href="renwu.html"><img style="border-radius: 40px;margin-right: 10px; margin-top: 10px ;" class="dingbu dingbu2 " src="https://s2.loli.net/2022/10/29/2GKhD9BVHb876va.png" alt="子酱人物" ></a>
+  <a><img style="width:4px;"  src="tupian/kongbai.png" alt="" ></a>
+  <a  href="shipin.html"><img style="border-radius: 40px;margin-right: 10px; margin-top: 10px ;" class="dingbu dingbu2 " src="https://s2.loli.net/2022/10/29/QoiuXkGjrCOLp62.png" alt="自制视频" ></a>
+  <a><img style="width:4px ;" src="tupian/kongbai.png" alt="" ></a>
+  <a  href="zhenghebao.html"><img style="border-radius: 40px;margin-right: 10px; margin-top: 10px ; " class="dingbu dingbu2 " src="https://s2.loli.net/2022/10/29/epq3hIzDPGm2nTy.png" alt="整合包" ></a>
+  <a><img style="width:4px ;" src="tupian/kongbai.png" alt="" ></a>
+        <a  href="lishi.html"><img style="background-color: white;border-radius: 40px;margin-right: 10px; margin-top: 10px ; " class="dingbu dingbu2" src="https://s2.loli.net/2022/10/29/BY8CMvywsIZJobe.jpg" alt="历史" ></a>
+  <div style="margin-left: auto;padding-right: 20px;">
+<a href="shezhi.html"></div><div><img style="padding-bottom:20px ; padding-left:10px ;" src="https://s2.loli.net/2022/10/29/7bmHFZJ19c3dMlV.png" alt="设置" height="40px"></a>
+    </div>
+</div>
+<div style="
+opacity:0.4; width:100%; height: 100px; display: flex; text-align: center; " > 
+  
+   
+   
+    
+   
+</div>
+<!--中间-->
+
+    <div class="shuxianghezi " style="text-align:center; padding: 0%;">
+      <img class="suoshui diannao" src="https://s2.loli.net/2022/10/29/Kb7aUrqLSiVN9kj.png" alt="子酱人" width="" height="px" /></div>
+  <div id="color" style="text-align: center; padding-bottom: 13pc;"><em id="da" style=" font-weight: 100; font-size: 80px;">子酱人SMP</em> </div>
+
+</div>
+</div>
+</div>
+
+<div
+  style="
+     
+    
+    color: #d1d1d1;
+   
+    cursor: pointer;
+    text-align: center;
+    color: #d1d1d1;
+    font-size: 12px;
+    opacity: .6;
+    position: fixed;
+    bottom: 16px;
+    left: 1%;
+    right:1% ;
+  "
+><p id="showsectime"></p>
+  <p>本站所发布的部分内容源于互联网搬运，仅限于小范围内传播学习和文献参考，如果有侵权之处请第一时间联系我们删除。敬请谅解! E-mail:861903534@qq.com</p>
+</div>
+
+<script src="time.js" >
+document.getElementById("da").style.fontSize = localStorage.da + 'px';
+document.getElementById("color").style.color = localStorage.color;
+if (localStorage.name!==undefined) {
+  if(localStorage.name!=="") {
+if (localStorage.name==="张翼"||localStorage.name==='天子') {
+   setTimeout("changeState()",1000 );  
+function changeState(){  
+	alert(localStorage.name+"，滚出子酱人官网")
+}
+} else {  setTimeout("changeState()",1000 );  
+function changeState(){  
+	alert(localStorage.name+"，欢迎来到子酱人官网")
+}
+  
+}
+  
+}
+else{ setTimeout("changeState()",1000 );  
+function changeState(){  
+	alert("欢迎来到子酱人官网")
+}
+ }
+} 
+
+else {
+  setTimeout("changeState()",1000 );  
+function changeState(){  
+	alert("欢迎来到子酱人官网")
+}
+}
+
+</script>
+<script src="newtime.js"></script>
+</body>
+</html>
