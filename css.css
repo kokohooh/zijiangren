@@ -6,12 +6,12 @@
     float: right;}
 .body {
     margin: 0;
-    height: 100vh;
+    
     background-color: #47516B;
   }
   body {
     margin: 0;
-    height: 100vh;
+    
     background-color: white;
   }
   a{text-decoration:none} 
@@ -229,3 +229,4 @@ height:30px;
             height: 30px;
          }
        }
+       
