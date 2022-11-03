@@ -1,0 +1,81 @@
+#middle.move{
+    animation: movefromleft 1.5s;
+    animation-fill-mode: forwards;
+}
+#bottom.move {
+    animation: movefromright 1.4s;
+    animation-fill-mode: forwards;
+}
+#yi.m1{
+    animation: movefromleft 1.5s;
+    animation-fill-mode: forwards;
+}
+#er.m1 {
+    animation: movefromright 1.4s;
+    animation-fill-mode: forwards;
+}
+
+@media(max-width:768px) {@keyframes movefromleft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(5%);
+    }
+}
+@keyframes movefromright {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(5%);
+    }}}
+@media(min-width:768px) {@keyframes movefromleft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(15%);
+    }
+}
+@keyframes movefromright {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(15%);
+    }}}
+    .lest{  
+          position:relative;
+            animation:movefromleft 1s ;
+          animation-fill-mode: forwards;
+        }
+        .right{
+            position: relative;
+            animation: movefromright 1s;
+            animation-fill-mode: forwards;
+        }
+        @media(max-width:768px){
+         .daixao{   width: 90%;
+        }}
+        @media(min-width:768px){
+         .daixao{   width: 70%;
+        }}
+
+        @keyframes toushang{
+            from{top: -100px;}
+            to{ top: 0px;}
+        }
+        .toushang{
+            position: relative;
+            animation: toushang 1s;
+            animation-fill-mode: forwards;
+        }
