@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,62 +8,15 @@
     <link rel="icon" href="tupian/logo.ico">
     <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="stylesheet" type="text/css" href="donghuan.css">
-    <style>
-       
-       
-        
-        .a{
-            width: 900px;
-            
-            position: relative;
-            
-            overflow: hidden;
-            display: flex;
-            justify-content: center;
-        }
-        .b{
-            transition: .7s;
-            overflow: hidden;
-        }
-        .b:hover{
-            flex-shrink: 0;
-            flex-grow: 0;
-            
-        }
-        .b img{
-            width: 500px;
-        }
-        @media(max-width:768px){
-            .b img{
-            width: 250px;
-        }
-        }
-        @media(min-width:1415px){
-            .b img{
-            width: 600px;
-        }
-        }
-        @media(min-width:1680px){
-            .b img{
-            width: 700px;
-        }
-        }
-        @media(max-width:1000px){
-            .b img{
-            width: 350px;
-        }
-        }
-        @media(max-width:400px){
-            .b img{
-            width: 190px;
-        }
-        }
-    </style>
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  </style>
+  
 </head>
-
-<body  class="board-indexrw flex shuxianghezi">
-     <!--头部栏-->
+<body class="board-indexrw flex shuxianghezi">
+<!--头部栏-->
 <div class="" style="display: flex;">
     <a style="width: 100%;"><img style="width: 33%;" class="wu" src="tupian/kongbai.png" alt="" ></a>
     <a  href="index.html"><img style="background-color: white;border-radius: 40px;margin-right: 10px; margin-top: 10px ;" class="dingbu toushang dingbu2" src="https://s2.loli.net/2022/11/01/Yxdtu3w76Kc4zqN.png" alt="MC联机" ></a>
@@ -83,77 +35,148 @@
       </div>
   </div>
     <!--大标题-->
-    <did  class="flex shuxianghezi hs" style="color: white;">
-        <div id="color">
-    <div id="da" style="flex: 2;
+    <div style="flex: 2;
      text-align: center;
       padding-bottom: 200px;
-      
-    ">
-        <em   style="font-size:70px;
+       color: aliceblue;">
+       <em style="font-size:90px;
        ">
-            子酱人SMP</em>
+        子酱人SMP</em>
     </div>
-    </div>
-    </did>
     <!--人物简介-->
-    <div style="display: flex;padding-bottom: 0px;">
-        <!--左边空白部分-->
-        <div style=" flex: 1;"><!--1-->
+    
+    <!--人物简介第一行-->
+    <div class="ziti renwushuxing-1" >
+        <!--boki简介框-->
+        <div class="yinying renwushuxing" ><!--1-->
+             <!--boki头像-->
+        <div style="flex: 1;padding-top: 15px;padding-left: 5px;"> 
+            <img src="https://s2.loli.net/2022/11/08/O9HYpeyNXVfREsi.png" alt="boki" width="130"></div>
+         <!--boki文字介绍-->
+        <div style="flex: 1.75;">
+            <h1 class="name">boki<br>一时子酱人啊 </h1><p class="jianjie">爱玩LOL的大聪明</P></div>
         </div>
-        <!--毛玻璃图片-->
-        <div class="a" style="flex: 20;  border-radius: 20px">
-            <div class="b"><img src="https://s2.loli.net/2022/10/29/EzUmrPFsJoG9qag.jpg"></div>
-            <div class="b"><img src="https://s2.loli.net/2022/10/29/HNzln3Dvr4yXf7R.jpg"> </div>
-            <div class="b"><img src="https://s2.loli.net/2022/10/29/e8ibkCEGJgHyMWI.jpg"></div>
-            <div class="b"><img src="https://s2.loli.net/2022/10/29/hGzBD3boc9TkCWe.jpg"></div>
-            <div class="b"><img src="https://s2.loli.net/2022/10/29/cTfQ2FeBZIbOD1s.jpg"></div>
-            <div class="b"><img src="https://s2.loli.net/2022/11/03/CXgrdtfR8kNeZDo.jpg"></div>
-           
+        
+         
+            
+        <!--老吴简介框-->
+        <div class="yinying renwushuxing" ><!--2-->
+            <!--老吴头像-->
+            <div style="flex: 1;padding-top: 15px;padding-left: 5px;">
+                <img src="https://s2.loli.net/2022/11/08/mBIOqPsyZMG73fd.png" alt="老吴" width="130">
+            </div>
+            <!--老吴文字介绍-->
+            <div style="flex: 1.75;">
+                <h1 class="name">老吴<br>二时子酱人啊 </h1><p class="jianjie">万恶的甲方</P>
+            </div>
+            
         </div>
-      <!--右边空白部分-->
-      <div style="flex: 1;">
-      
-      </div>
+         <!--铁剑简介框-->
+    <div class="yinying renwushuxing" style="border-radius: 20px; flex: 1; display: flex; margin: 5px; background-color:#E2E2E2;"><!--1-->
+        <!--铁剑头像-->
+   <div style="flex: 1;padding-top: 15px;padding-left: 5px;"><img src="https://s2.loli.net/2022/11/08/PszBUJ3VDrheYQv.png" alt="苹果味的铁剑" width="130"></div>
+    <!--铁剑文字介绍-->
+   <div style="flex: 1.75;"><h1 class="name">苹果味的铁剑 <br>两时子酱人啊 </h1>
+    <p class="jianjie" style="text-decoration: line-through;">懒狗</P>
+        <p class="jianjie">本网站的编写者</P></div>
+   </div>
        
         </div>
-
-
+    </div>
+    </div>
+</div>
+<div class="ziti renwushuxing-1-2" >
+    <!--红小颜简介框-->
+    <div class="yinying renwushuxing" >
+        <!--红小颜头像-->
+        <div style="flex: 1;padding-top: 15px;padding-left: 5px;"><img src="https://s2.loli.net/2022/11/08/jLKZJ5FrB8NIudc.png" alt="boki" width="130"></div>
+        <!--红小颜文字介绍-->
+        <div style="flex: 1.75;"><h1 class="name">红小颜<br>四时子酱人啊</h1><p class="jianjie">是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介</P></div>
+        </div>
+    <!--naku简介框-->
+    <div class="yinying renwushuxing" ><!--2-->
+        <!--naku头像-->
+        <div style="flex: 1;padding-top: 15px;padding-left: 5px;">
+            <img src="https://s2.loli.net/2022/11/08/DzsHc56K87ngoZ2.png" alt="nako" width="130">
+        </div>
+        <!--naku文字介绍-->
+        <div style="flex: 1.75;">
+            <h1 class="name">Naku<br>奈时子酱人啊</h1><p class="jianjie">是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介</P>
+        </div>
+        
+    </div>
+    <!--黄子简介框-->
+    <div class="yinying renwushuxing" >
+        <!--黄子头像-->
+        <div style="flex: 1;padding-top: 15px;padding-left: 5px;"><h1>暂无</h1></div>
+        <!--黄子文字介绍-->
+        <div style="flex: 1.75;"><h1 class="name">黄子<br>黄时子酱人啊</h1><p class="jianjie">是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介</P></div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+<div class="ziti renwushuxing-1 " >
+    <!--世界简介框-->
+    <div class="yinying renwushuxing"><!--1-->
+         <!--世界头像-->
+    <div style="flex: 1;padding-top: 15px;padding-left: 5px;"><img src="https://s2.loli.net/2022/11/08/v7eXEdpoikPQsbG.png" alt="world" width="130"></div>
+     <!--世界文字介绍-->
+    <div style="flex: 1.75;"><h1 class="name">世界<br>亿时子酱人啊 </h1><p class="jianjie">是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介</P></div>
+    </div>
+    <!--美丽简介框-->
+    <div class="yinying renwushuxing" ><!--2-->
+        <!--美丽头像-->
+        <div style="flex: 1;padding-top: 15px;padding-left: 5px;">
+            <h1>暂无</h1>
+        </div>
+        <!--美丽文字介绍-->
+        <div style="flex: 1.75;">
+            <h1 class="name">美丽<br>美时子酱人啊</h1><p class="jianjie">是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介我是简介</P>
+        </div>
+        
+    </div>
+    
+</div>
+</div>
     <div class="flex" style=" padding: 10px; ; flex:6;flex-direction: row ;">
         <p class="waijianju">
+           
+        
+    </p>
+    <P>
 
-
-        </p>
-        <P>
-
-        </P>
-        <p></p>
-    </div>
+    </P>
+    <p></p>
     <div
-  style="
-     
-    
-    color: #d1d1d1;
+style="
    
-    cursor: pointer;
-    text-align: center;
-    color: #d1d1d1;
-    font-size: 12px;
-    opacity: .6;
-    
-    bottom: 16px;
-    left: 5%;
-    right:5% ;
-  "
-><p id="showsectime"></p>
-  <p>本站所发布的部分内容源于互联网搬运，仅限于小范围内传播学习和文献参考，如果有侵权之处请第一时间联系我们删除。敬请谅解! E-mail:861903534@qq.com</p>
-</div>
+  
+  
+ 
+  cursor: pointer;
+  text-align: center;
+  color: #d1d1d1;
+  font-size: 12px;
+  opacity: .6;
 
+  bottom: 16px;
+  left: 5%;
+  right:5% ;
+"
+><p id="showsectime"></p>
+<p>本站所发布的部分内容源于互联网搬运，仅限于小范围内传播学习和文献参考，如果有侵权之处请第一时间联系我们删除。敬请谅解! E-mail:861903534@qq.com</p>
+</div>
+<script src="wow.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 <script src="time.js" >
         document.getElementById("da").style.fontSize = localStorage.da + 'px';
         document.getElementById("color").style.color = localStorage.color;
         document.getElementById("qtcolor").style.color = localStorage.qtcolor;
     </script>
+    
 </body>
-
 </html>
