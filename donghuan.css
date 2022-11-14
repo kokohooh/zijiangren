@@ -1,20 +1,6 @@
-#middle.move{
-    animation: movefromleft 1.5s;
-    animation-fill-mode: forwards;
-}
-#bottom.move {
-    animation: movefromright 1.4s;
-    animation-fill-mode: forwards;
-}
-#yi.m1{
-    animation: movefromleft 1.5s;
-    animation-fill-mode: forwards;
-}
-#er.m1 {
-    animation: movefromright 1.4s;
-    animation-fill-mode: forwards;
-}
-
+/*-----------------------第一个-------------------------------*/
+/*在屏幕宽度小于768px时
+从左到右的动画*/
 @media(max-width:768px) {@keyframes movefromleft {
     from {
         opacity: 0;
@@ -25,6 +11,7 @@
         transform: translateX(5%);
     }
 }
+/*从右到左的动画*/
 @keyframes movefromright {
     from {
         opacity: 0;
@@ -34,6 +21,8 @@
         opacity: 1;
         transform: translateX(5%);
     }}}
+    /*在屏幕宽度大于768px时
+从左到右的动画*/
 @media(min-width:768px) {@keyframes movefromleft {
     from {
         opacity: 0;
@@ -44,6 +33,7 @@
         transform: translateX(15%);
     }
 }
+/*从右到左的动画*/
 @keyframes movefromright {
     from {
         opacity: 0;
@@ -53,29 +43,103 @@
         opacity: 1;
         transform: translateX(15%);
     }}}
-    .lest{  
-          position:relative;
-            animation:movefromleft 1s ;
-          animation-fill-mode: forwards;
-        }
-        .right{
-            position: relative;
-            animation: movefromright 1s;
-            animation-fill-mode: forwards;
-        }
-        @media(max-width:768px){
-         .daixao{   width: 90%;
-        }}
-        @media(min-width:768px){
-         .daixao{   width: 70%;
-        }}
+/*---------------------------第二个-----------------------------*/
+    /*在屏幕宽度小于768px时
+    从左到右的动画*/
+@media(max-width:768px) {@keyframes renwuleft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/*从右到左的动画*/
+@keyframes renwuright {
+    from {
+       right: -100%;
+    }
+    to {
+        right: 0%;
+    }}}
+    /*在屏幕宽度大于768px时
+从左到右的动画*/
+@media(min-width:768px) {@keyframes renwuleft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(15%);
+    }
+}
+/*从右到左的动画*/
+@keyframes renwuright {
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(15%);
+    }}}
 
+    /*大小限制*/
+        @media(max-width:768px){
+         .daixao{   
+             width: 90%;
+        }
+            .renwutupian{
+                width: 48% ;
+            }
+            .kongbai{
+                width: 2%;
+            }
+        }
+        @media(min-width:768px){
+         .daixao{  
+             width: 70%;
+            }
+            .renwutupian{
+                width: 40% ;
+            }
+            .kongbai{
+                width: 10%;
+            }
+        }
+/*从上到下的动画*/
         @keyframes toushang{
             from{top: -100px;}
             to{ top: 0px;}
         }
+       
+       
+        
         .toushang{
             position: relative;
             animation: toushang 1s;
             animation-fill-mode: forwards;
         }
+        .left{  
+            position:relative;
+              animation:movefromleft 1s ;
+            animation-fill-mode: forwards;
+          }
+          .right{
+              position: relative;
+              animation: movefromright 1s;
+              animation-fill-mode: forwards;
+          }
+          .renwuleft{
+            position:relative;
+              animation:renwuleft 1s ;
+            animation-fill-mode: forwards;
+          }
+          .renwuright{
+            position:relative;
+              animation:renwuright 1s ;
+            animation-fill-mode: forwards;
+          }
