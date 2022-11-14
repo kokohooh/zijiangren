@@ -35,7 +35,7 @@
     font-style: italic;
  }
  .board-indexlj {
-    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/10/29/LzVnSmBT1KlqOcs.jpg);
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/11/6LKWIjxFu7wUp8S.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -256,5 +256,15 @@ height:30px;
         margin: 5px;
         background-color:#E2E2E2;
         
+        
        }
-       
+    @media (max-width: 1279.9px){
+        .dingbu3{
+            display: none;
+        }
+    }
+    @media (min-width: 1279.9px){
+        .dingbu4{
+            display: none;
+        }
+    }
