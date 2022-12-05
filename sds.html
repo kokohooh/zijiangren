@@ -16,6 +16,7 @@
     <canvas id="myCanvas" width="400" height="500" style="border:1px solid #000000;">
     </div>
     <script>
+        
         var c=document.getElementById("myCanvas");
 var ctx=c.getContext("2d");
 var sjs = Math.floor(Math.random()*11) +60 ;
@@ -61,6 +62,7 @@ if(sjs17 == 0){color = "yellow"}
 else{color = "red"}
 
 }
+
 ctx.beginPath()
 ctx.moveTo(200,0);
 ctx.lineTo(270,90);
@@ -97,6 +99,7 @@ ctx.lineTo(185,360);
 ctx.strokeStyle = "brown";
 ctx.fillStyle = "brown";
 ctx.fill()
+function sds() {
 sjsx()
 ctx.beginPath();
 ctx.arc(sjs2,sjs,10,0,2*Math.PI);
@@ -156,7 +159,55 @@ ctx.beginPath();
 ctx.arc(sjs7,320,sjdx,0,2*Math.PI);
 ctx.fillStyle = color
 ctx.fill();
-sjsx()
+sjsx()}
+function qc(){
+    ctx.beginPath()
+ctx.moveTo(0,0);
+ctx.lineTo(0,500);
+ctx.lineTo(400,500);
+ctx.lineTo(400,0);
+ctx.strokeStyle = "white";
+ctx.fillStyle = "white";
+ctx.fill();
+ctx.beginPath()
+ctx.moveTo(200,0);
+ctx.lineTo(270,90);
+ctx.lineTo(130,90);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill();
+ctx.beginPath()
+ctx.moveTo(200,80);
+ctx.lineTo(300,170);
+ctx.lineTo(110,170);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill()
+ctx.beginPath()
+ctx.moveTo(200,150);
+ctx.lineTo(320,260);
+ctx.lineTo(90,260);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill()
+ctx.beginPath()
+ctx.moveTo(200,230);
+ctx.lineTo(345,360);
+ctx.lineTo(65,360);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill()
+ctx.beginPath()
+ctx.moveTo(215,360);
+ctx.lineTo(215,410);
+ctx.lineTo(185,410);
+ctx.lineTo(185,360);
+ctx.strokeStyle = "brown";
+ctx.fillStyle = "brown";
+ctx.fill()
+}
+setInterval(sds,999)
+setInterval(qc,998)
 /*ctx.beginPath();
 ctx.arc(150,86,8,0,2*Math.PI);
 ctx.fillStyle = "green"
