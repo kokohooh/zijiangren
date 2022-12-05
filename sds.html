@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>送给美丽的圣诞树</title>
+</head>
+<body><div style="margin-left: 10%;margin-right: 10%;">
+    <h1>送给美丽的圣诞树</h1>
+    <h1>（刷新一下圣诞树的样子会小变一下）</h1>
+    <h1>我一下午写的</h1>
+    <h1>感觉怎么样</h1>
+    <h1>时间有点少，有点粗糙，后面会慢慢改的</h1>
+
+    <canvas id="myCanvas" width="400" height="500" style="border:1px solid #000000;">
+    </div>
+    <script>
+        var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+var sjs = Math.floor(Math.random()*11) +60 ;
+var sjs2 = Math.floor(Math.random()*63) +168;
+var sjs3 = Math.floor(Math.random()*47) +110;
+var sjs4 = Math.floor(Math.random()*40) +150;
+var sjs5 = Math.floor(Math.random()*47) +110;
+var sjs6 = Math.floor(Math.random()*55)+190;
+var sjs7 = Math.floor(Math.random()*100);
+var sjs8 = Math.floor(Math.random()*100);
+var sjs9 = Math.floor(Math.random()*100);
+var sjs10 = Math.floor(Math.random()*100);
+var sjs11 = Math.floor(Math.random()*100);
+var sjs12= Math.floor(Math.random()*100);
+var sjs13= Math.floor(Math.random()*100);
+var sjs14= Math.floor(Math.random()*100);
+var sjs15= Math.floor(Math.random()*100);
+var sjs16= Math.floor(Math.random()*100);
+var sjs17= Math.round(Math.random()); 
+var sjdx= Math.floor(Math.random()*5) +8;
+var color
+function sjsx(){
+sjdx = Math.floor(Math.random()*5) +8;
+sjs = Math.floor(Math.random()*11) +60 ;
+sjs2 = Math.floor(Math.random()*63) +168;
+sjs3 = Math.floor(Math.random()*47) +110;
+sjs4 = Math.floor(Math.random()*40) +150;
+sjs5 = Math.floor(Math.random()*47) +110;
+sjs6 = Math.floor(Math.random()*46) + 215;
+sjs7 = Math.floor(Math.random()*55) + 190;
+sjs8 = Math.floor(Math.random()*80)+210;
+sjs9 = Math.floor(Math.random()*55) + 190;
+sjs10 = Math.floor(Math.random()*70) +130;
+sjs11 = Math.floor(Math.random()*100);
+sjs12= Math.floor(Math.random()*100);
+sjs13= Math.floor(Math.random()*100);
+sjs14= Math.floor(Math.random()*100);
+sjs15= Math.floor(Math.random()*100);
+sjs16= Math.floor(Math.random()*100);
+sjs17 = Math.round(Math.random()); 
+
+if(sjs17 == 0){color = "yellow"}
+else{color = "red"}
+
+}
+ctx.beginPath()
+ctx.moveTo(200,0);
+ctx.lineTo(270,90);
+ctx.lineTo(130,90);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill();
+ctx.beginPath()
+ctx.moveTo(200,80);
+ctx.lineTo(300,170);
+ctx.lineTo(110,170);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill()
+ctx.beginPath()
+ctx.moveTo(200,150);
+ctx.lineTo(320,260);
+ctx.lineTo(90,260);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill()
+ctx.beginPath()
+ctx.moveTo(200,230);
+ctx.lineTo(345,360);
+ctx.lineTo(65,360);
+ctx.strokeStyle = "green";
+ctx.fillStyle = "green";
+ctx.fill()
+ctx.beginPath()
+ctx.moveTo(215,360);
+ctx.lineTo(215,410);
+ctx.lineTo(185,410);
+ctx.lineTo(185,360);
+ctx.strokeStyle = "brown";
+ctx.fillStyle = "brown";
+ctx.fill()
+sjsx()
+ctx.beginPath();
+ctx.arc(sjs2,sjs,10,0,2*Math.PI);
+
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+///////////////////////
+ctx.beginPath();
+if(sjs7<230){
+    sjs8 = Math.floor(Math.random()*30) +210
+}
+ctx.arc(sjs8,sjs7,sjdx,0,2*Math.PI);
+//190
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+//////////////////////////////////////////////////
+ctx.beginPath();
+if(sjs3<145){
+    sjs4 = Math.floor(Math.random()*16) +170
+}
+ctx.arc(sjs4,sjs3,sjdx,0,2*Math.PI);
+
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+ctx.beginPath();
+ctx.arc(140,250,sjdx,0,2*Math.PI);
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+ctx.beginPath();
+if(sjs5<135){
+    sjs6 = Math.floor(Math.random()*24) +205;}
+ctx.arc(sjs6,sjs5,sjdx,0,2*Math.PI);
+//260
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+/////////////////////////////
+ctx.beginPath();
+if(sjs9<240){
+    sjs10 = Math.floor(Math.random()*20) +160
+}
+ctx.arc(sjs10,sjs9,sjdx,0,2*Math.PI);
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+////////////////////////////
+ctx.beginPath();
+ctx.arc(sjs3,310,sjdx,0,2*Math.PI);
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+ctx.beginPath();
+ctx.arc(sjs7,320,sjdx,0,2*Math.PI);
+ctx.fillStyle = color
+ctx.fill();
+sjsx()
+/*ctx.beginPath();
+ctx.arc(150,86,8,0,2*Math.PI);
+ctx.fillStyle = "green"
+ctx.fill();
+ctx.beginPath();
+ctx.arc(162,94,6,1,0*Math.PI/true);
+ctx.fillStyle = "white"
+ctx.fill()
+ctx.beginPath();
+ctx.arc(150,89,4,0,2*Math.PI);
+ctx.fillStyle = "green"
+ctx.fill();*/
+</script>
+</body>
+</html>
