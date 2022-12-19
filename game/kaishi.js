@@ -49,7 +49,9 @@ document.getElementById("HP").innerHTML="HP:"+HP
             }else{
                 document.getElementById("name0").innerHTML= localStorage.name
                 document.getElementById("ym2").style.display = "none"
+                document.getElementById("tou").style.display = "block"
                 document.getElementById("ym3").style.display = "block"
+                document.getElementById("word0").innerHTML= "你的名字是" + localStorage.name + "，欢迎来到这个我还没想好叫什么名字的游戏"
                 word1()
                 
             }
@@ -61,5 +63,46 @@ document.getElementById("HP").innerHTML="HP:"+HP
        var word=document.getElementById("word0").innerHTML;
        function type(){
            document.getElementById("word1").innerText = word.substring(0,index++);
+           next()}
+       setInterval(type, 250);
+       function next (){
+        if(document.getElementById("word1").innerHTML== "你的名字是" + localStorage.name + "，欢迎来到这个我还没想好叫什么名字的游戏"){
+            document.getElementById("next1").style.display = "block"
+        }
        }
-       setInterval(type, 100);}
+   }
+    function word2 () {
+        var index=0;
+       var word=document.getElementById("word2").innerHTML;
+       function type(){
+           document.getElementById("word3").innerText = word.substring(0,index++);
+           next()}
+       setInterval(type, 250);
+       function next (){
+        if(document.getElementById("word3").innerHTML== "这个世界的名字是 (没想好)"){
+            word3()
+        }
+       }
+    }
+    function word3 () {
+        var index=0;
+       var word=document.getElementById("word4").innerHTML;
+       function type(){
+           document.getElementById("word5").innerText = word.substring(0,index++);
+           next()}
+       setInterval(type, 250);
+      /* function next (){
+        if(document.getElementById("word5").innerHTML== "你的名字是" + localStorage.name + "，欢迎来到这个我还没想好叫什么名字的游戏"){
+            document.getElementById("next1").style.display = "block"
+        }
+       }
+    */}
+   function next1 (){
+    document.getElementById("ym3").style.display = "none"
+    document.getElementById("ym4").style.display = "block"
+    document.getElementById("word2").innerHTML ="这个世界的名字是 (没想好)  "
+    document.getElementById("word4").innerHTML ="你发现面前有一只史莱姆，你想要：---未完待续"
+
+    word2()
+
+   }
