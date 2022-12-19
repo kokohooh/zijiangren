@@ -6,7 +6,6 @@ function new_game (){
 
 
 
-
 var name0 = window.name
 var HP =100
     var MP =100
