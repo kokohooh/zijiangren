@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mnq/shipei.css">
+    <title>抽卡模拟器</title>
+</head>
+<body  class="lingan_1" id="lingan_1" style="background-color: gray;">
+  <div style="display: flex;">
+  <p id="qian">小钱钱：114514</p><button name="1" id="qianzhankai" onclick="qianzhankai()" style="width:20px ;height: 20px;margin: 15px;">+</button><p id="yiju" style="display:none;">喊一句+1600</p><button id="han" onclick="daqian()" style="height: 20px;margin-top: 15px;display: none;">作者是帅哥</button><p style="display: none;"  id="tdl">听到了！</p></div>
+  <div style="display: flex;">
+  <p id="JO">JO缠之⚪：0</p><button id="jozhankai" name="1" onclick="jochan()" style="width:20px ;height: 20px;margin: 15px;">+</button><p id="wen1"></p><input id="shuru" type="number" style="display: none; height: 20px;margin: 15px;"><p style="display: none;" id="ke">颗</p><button style="display: none; height: 20px;margin: 15px;" id="queding" onclick="queding()">确定</button></div>
+  <div style="display: flex;">
+    <div class="daheiwanzi">
+<h1 class="zi">大</h1>
+<h1 class="zi">黑</h1>
+<h1 class="zi">丸</h1>
+<h1 class="zi">子</h1>
+    </div>
+    <div style="flex: 4; ">
+<img class="daheiwanziimg" src="https://s2.loli.net/2022/12/30/Rhc1BW5VOTrlvqS.png" alt="">
+    </div>
+  </div>
+  <div style="display: flex;">
+    <div style="flex: 2;"><p id="win2"></p><button id="guo" style="margin-left:350px;display: none;" onclick="gu()">确定</button></div>
+    <div id="kuangjia" style="flex: 1;">
+  <button style="width:60px ;" id="chou" onclick="yichou()">一发</button>
+  <button style="width:60px ;" id="shichou" onclick="shilian()">十发</button>
+    </div>
+  </div>
+  <div style="display:flex;">
+<canvas id="mc" width="400" height="280"
+style="border:1px solid black"></canvas>
+<canvas id="c" width="4" height="2"
+style="display: none;"></canvas>
+<p id="tiaoshi"></p></div>
+  <script src="mnq/donghua.js">
+  </script>
+  <script src="mnq/zhuanhuan.js"></script>
+</body>
+</html>
