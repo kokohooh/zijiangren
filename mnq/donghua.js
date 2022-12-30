@@ -204,27 +204,30 @@ function shilian() {
             if (Probability > gailitisheng*16 && Probability < 950) {
                budaochu.fillStyle = "blue";
                baodi = baodi +1
+               zibaodi = zibaodi +1
             }
             if (Probability < gailitisheng*47 + 16//1.6%概率
             ) {
                budaochu.fillStyle = "yellow";
                baodi = 0 
                gailitisheng = 0
-               zibaodi = 0
+               zibaodi = zibaodi +1
                 //出金
             }
             if (zibaodi > 9)
             {
                 budaochu.fillStyle = "Purple";
                 zibaodi = zibaodi - 10
-                baodi = baodi +1
+                
+                //紫色保底
             }
             if (baodi > 89)
             {
                 budaochu.fillStyle = "yellow";
                 gailitisheng = 0
                 baodi = baodi - 90
-                zibaodi = 0
+                zibaodi = zibaodi +1
+                //金保底
             }
             localStorage.jieguo =budaochu.fillStyle
             console.log(Probability);
