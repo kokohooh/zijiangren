@@ -1,0 +1,26 @@
+@media(min-width:768px){
+    .daheiwanzi{
+        height: 300px;
+        display: block;
+        flex: 1;
+        border: #888888 solid 1px;}
+        .daheiwanziimg{
+            height: 300px;
+        }
+        
+    }
+
+@media(max-width:768px){
+    .daheiwanzi{
+       height: 100px;
+       
+    }
+    .daheiwanziimg{
+        width: 100%;
+    }
+    .zi{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
