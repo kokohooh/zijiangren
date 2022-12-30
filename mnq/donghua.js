@@ -351,7 +351,6 @@ function gu(){
         var canvas = document.getElementById('mc');
     var ctx = canvas.getContext('2d');
     
-        ctx.fillStyle = "#888888"
-        ctx.fillRect(0, 0, 400, 280)
+    canvas.width = canvas.width
     }
 }
