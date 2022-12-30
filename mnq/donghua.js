@@ -89,11 +89,8 @@ function yichou() {
            
 
             setTimeout(function () { document.getElementById("guo") }, 1000)
-            setTimeout(function () { clear() }, 1000)
-
-            setTimeout(function () { document.getElementById("chou").style.display = "block" }, 1000)
-            setTimeout(function () { document.getElementById("shichou").style.display = "block" }, 1000)
-            setTimeout(function () { document.getElementById("kuangjia").style.display = "flex" }, 1000)
+            setTimeout(function () { document.getElementById("guo").style.display = "block"}, 500)
+           
 
 
 
