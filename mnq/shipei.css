@@ -1,3 +1,4 @@
+
 @media(min-width:768px){
     .daheiwanzi{
         height: 300px;
@@ -6,6 +7,9 @@
         border: #888888 solid 1px;}
         .daheiwanziimg{
             height: 300px;
+        }
+        .chouwai{
+            flex: 1.5;
         }
         
     }
@@ -22,5 +26,49 @@
         margin: 0;
         padding: 0;
     }
+    .chouwai{
+        flex: 1.2;
+    }
     
 }
+
+@media(max-width:650px){
+    .chouwai{
+        flex: 0.8;
+    } }
+@media(max-width:540px){
+    .chouwai{
+        flex: 0.4;
+    } 
+}
+@media(max-width:420px){
+    .chouwai{
+        flex: 0.2;
+    } 
+}
+@media(max-width:360px){
+    .chouwai{
+        flex: 0;
+    } 
+}
+@media(min-width:1000px){
+    .chouwai{
+        flex: 0.75;
+    }
+}
+
+    .board-index {
+        background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/12/30/ixocuBGHam36PgX.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .an{
+        background:transparent;	/*按钮背景透明*/
+	border-width:0px;	/*边框透明*/
+	outline:none;	/*点击后没边框*/
+    margin-left: 45px;
+    }
+    .chou{
+        width: 115px;
+        margin-left: 13px;
+    }
