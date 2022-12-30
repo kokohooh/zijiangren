@@ -98,8 +98,7 @@ function yichou() {
 
 
             function clear() {
-                ctx.fillStyle = "#888888"
-                ctx.fillRect(0, 0, 400, 280)
+                canvas.width = canvas.width
             }
         }
 
