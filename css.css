@@ -268,3 +268,15 @@ height:30px;
             display: none;
         }
     }
+.previous{
+    content:url(https://s2.loli.net/2023/01/09/UKpX2hYxlTsNQRP.png); 
+}
+.previous:hover{
+    content:url(https://s2.loli.net/2023/01/09/fzd7oRgFxqpDNhb.png); 
+}
+.next{
+    content:url(https://s2.loli.net/2023/01/09/gPR4628JbyNBkpK.png); 
+}
+.next:hover{
+    content:url(https://s2.loli.net/2023/01/09/CRbDFlfTYSZpcgL.png); 
+}
