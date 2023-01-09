@@ -13,7 +13,10 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       />
-      <style>a{TEXT-DECORATION:none}</style> 
+      <style>a{TEXT-DECORATION:none};
+     
+      
+      </style> 
 </head>
 <body class="flex shuxianghezi board-indexlj">
     
@@ -27,12 +30,12 @@
 <a href="mnq/index.html" style="color: red;"><p style="margin-right: 10px;"> >>点击进入<<</p></a>
 <h2 style="margin-right: 15px; color: #899999;">小游戏(弃坑ing)</h2>
 <a href="game/index.html" style="color: red;"><p style="margin-right: 10px;"> >>点击进入<<</p></a>
-<button onclick="er()" style="margin-top:60px;margin-left:160px ;" class="an"><img width="52" src="https://s2.loli.net/2023/01/09/gPR4628JbyNBkpK.png" alt=""></button>
+<img width="52" onclick="er()" style="margin-top:60px;margin-left:160px ;"  class="next">
 </div>
 <div id="er" style="display: none;">
   <h2 style="margin-right: 15px; margin-top:30px ;">电子木鱼</h2>
 <a href="muyu/index.html" style="color: red;"><p style="margin-right: 10px;"> >>点击进入<<</p></a>
-<button onclick="yi()" style="margin-top:245px;margin-right:260px ;" class="an"><img width="52" src="https://s2.loli.net/2023/01/09/UKpX2hYxlTsNQRP.png" alt=""></button>
+<img  onclick="yi()" class="previous" style="margin-top:245px;margin-right:230px ;" width="52"  alt="">
 </div>
 </div>
  <div
@@ -62,6 +65,7 @@
 	new WOW().init();
 </script>
 <script src="time.js" >
+  // onmouseover="this.src='https://s2.loli.net/2023/01/09/fzd7oRgFxqpDNhb.png'" onmouseout="this.src='https://s2.loli.net/2023/01/09/UKpX2hYxlTsNQRP.png'"/
         document.getElementById("da").style.fontSize = localStorage.da + 'px';
         document.getElementById("color").style.color = localStorage.color;
         document.getElementById("qtcolor").style.color = localStorage.qtcolor;
