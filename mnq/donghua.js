@@ -45,7 +45,7 @@ function yichou() {
         setTimeout(function () { ctx.fillRect(280, 20, 20, 40) }, 4250)
         setTimeout(function () { ctx.fillRect(300, 20, 40, 40) }, 4500)
         setTimeout(function () { gailv() }, 4500)
-
+ 
         function gailv() {
             var Probability
             if(baodi > 70){
