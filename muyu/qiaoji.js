@@ -1,6 +1,21 @@
 var gongde = 0
 document.getElementById("gongde").innerHTML ="功德:"+gongde
 var player = new Audio("https://storage.live.com/items/1E4148EF6D8FD434!1463:/muyu.mp3?authkey=AGO2bUosNacKkZw");
+var zishu = Math.round(Math.random()*3);
+var zi
+if (zishu == 0){
+zi = "————敲电子木鱼，成赛博佛祖"
+}
+if (zishu == 1){
+zi = "————敲电子木鱼，见机械佛祖"
+}
+if (zishu == 2){
+zi = "————敲电子木鱼，传赛博真经"
+}
+if (zishu == 3){
+zi = "————敲电子木鱼，娶初音未来"
+}
+document.getElementById("zi").innerHTML = zi
 function qiao(){
     player.currentTime = 0;
     document.getElementById("muyu").style.width ="139px"
