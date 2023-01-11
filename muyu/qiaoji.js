@@ -6,6 +6,7 @@ var gongde = 0
 document.getElementById("gongde").innerHTML ="功德:"+gongde
 //准备音乐
 var player = new Audio("https://storage.live.com/items/1E4148EF6D8FD434!1463:/muyu.mp3?authkey=AGO2bUosNacKkZw");
+var player_jinru = new Audio("http://storage.live.com/items/1E4148EF6D8FD434!1467:/界面音效5(Au2218204).aac?authkey=AGO2bUosNacKkZw");
 var player_lan = new Audio("http://storage.live.com/items/1E4148EF6D8FD434!1466:/tap(Au2218389).aac?authkey=AGO2bUosNacKkZw");
 //随机字
 var zishu = Math.round(Math.random()*3);
@@ -88,6 +89,7 @@ function musicgame() {
 }
 //切换成音游人模式
 function qihuan1(){
+    player_jinru.currentTime = 0;
     qihuan = 1
     document.getElementById("mu").style.display = "none"
     document.getElementById("lan").style.display = "block"
@@ -105,6 +107,7 @@ document.getElementById("xiaoguo").style.top = b + "px"
 document.getElementById("xiaoguo").style.display = 'none'
 window.x = x
 window.y = y
+player_jinru.play()
 }
 //切换成木鱼模式
 function qihuan2(){
