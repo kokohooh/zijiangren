@@ -7,17 +7,30 @@
     <link rel="shortcut icon" href="https://s2.loli.net/2023/01/10/HCI1kQmBRtd6o9b.png" type="image/x-icon"/>
     <link rel="stylesheet" href="/mnq/shipei.css" />
     <link rel="stylesheet" href="/muyu/css.css" />
-    
     <title>木鱼</title>
 </head>
 <body style="background-color: black;">
+    <!--功德显示-->
     <p id="gongde" style="color:white ;">功德：</p>
-    <div style="text-align: center; ">
+    <!--木鱼-->
+    <div id="mu" style="text-align: center; ">
         <button class="an" style="margin-top: 200px;" onclick="qiao()">
     <img id="muyu"  width="140px" src="https://s2.loli.net/2023/01/09/epK6WBIJ2bQwaEH.png" alt="">
 </button>
 </div>
+<!--蓝键-->
+    <div id="lan" style="  text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;display: none;  ">
+        <button class="an" style="margin-top: 200px;" onclick="lanqiao()">
+    <img id="lanjian" class="yin" width="140px" src="https://s2.loli.net/2023/01/10/dfqeMZxBXzPaLYD.png" alt="">
+</button>
+<!--按键效果-->
+<img id="xiaoguo" width="200" class="xiaoguo" src="https://s2.loli.net/2023/01/11/wlPeNKmCuZo97Lb.gif" alt=""></div>
+<!--随机字-->
 <p id="zi" style="position: fixed;bottom: 60px; color: white;opacity: .4;"></p>
+<!--按键-->
 <div style="
    text-align: center;
    position: fixed;
@@ -26,6 +39,7 @@
    right: 0;
 ">
     <button class="ann" onclick="gui0()">功德归0</button>
+    <button class="ann" onclick="musicgame()">音游人模式</button>
     <button class="ann" onclick="zuozhe()">作者</button>
     
 </div>
