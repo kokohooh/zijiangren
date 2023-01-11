@@ -8,3 +8,10 @@
     font-size:15px ;
     font-weight:600;
 }
+.yin{
+    text-align: center;
+}
+.xiaoguo{
+    position:fixed;
+    z-index: -1;
+}
