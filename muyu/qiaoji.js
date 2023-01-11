@@ -1,3 +1,5 @@
+var yy = "音游人模式"
+document.getElementById("moshi").innerHTML = yy
 var qihuan =0
 //功德准备
 var gongde = 0
@@ -89,6 +91,8 @@ function qihuan1(){
     qihuan = 1
     document.getElementById("mu").style.display = "none"
     document.getElementById("lan").style.display = "block"
+    yy = "木鱼模式"
+    document.getElementById("moshi").innerHTML = yy
     var obj = document.getElementById('lanjian')
 
 var x = obj.getBoundingClientRect().left;
@@ -107,6 +111,8 @@ function qihuan2(){
     qihuan = 0
     document.getElementById("mu").style.display = "block"
     document.getElementById("lan").style.display = "none"
+    yy = "音游人模式"
+document.getElementById("moshi").innerHTML = yy
 }
 //效果位置变化
 function wuizi(){
