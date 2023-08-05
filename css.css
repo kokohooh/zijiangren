@@ -35,29 +35,29 @@
     font-style: italic;
  }
  .board-indexlj {
-    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/14/rPwyJhq5uZgt8Xn.jpg);
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/beijing2.jpg);
     background-size: cover;
     background-position: center;
 }
 .board-indexrw {
-    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/10/gXnZsmM2GLfzjaW.jpg);
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/beijing3.jpg);
     background-size: 100%;
     background-position: top;
 }
 .board-indexsp {
-    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/02/TsKidpHQYxh8otg.jpg);
+    background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/beijing4.jpg);
     background-size: cover;
     background-position: center;
 }
 .board-index {
 
-    background: url(https://s2.loli.net/2022/11/05/ujhEpvBJcKfdU8P.jpg) no-repeat center center fixed;
+    background: url(tupian/beijing.jpg) no-repeat center center fixed;
         /*兼容浏览器版本*/}.a1{
             background-position: center;              
         background-size: cover;
     }
     .board-indexzhb {
-        background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(https://s2.loli.net/2022/11/14/cLs4jiqOouxCUNp.jpg);
+        background:linear-gradient(to right,rgba(0,0,0,.5),rgba(0,0,0,.5)),url(tupian/beijing5.jpg);
         background-size: 100%;
         background-position: center;
     }
