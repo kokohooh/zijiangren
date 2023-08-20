@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>子酱人官网-SMP</title>
   <link rel="icon" href="tupian/logo4.ico">
   <link rel="stylesheet" type="text/css" href="css.css">
@@ -25,8 +29,8 @@
       <h1 style=" color: #ffffff; text-align:center ; font-weight:500;text-shadow: 3px 5px 15px black;">
         当前服务器:<span style="color: blue;">冰</span><span style="color: red;">火</span>吸血鬼传说<br>
             服务器链接:<span style="color: orange;">zijiangren.tk</span></h1>
-
-
+            <div style="color: white;">服务器当前:<div id="online" style="color: white;"><span id="scstatus">检测是否在线中</span></div></div>
+            <div style="color: white;" id="playernow">服务器在线人数:<span id="scplayer">检测中</span></div>
     <p style="font-size:8px;color:darkgrey;">服务器24小时开启，不定期维护</p>
     <p style="color: white;">版本:1.18.2</p>
    <p style="color: white;">核心:forge</p>
@@ -38,7 +42,7 @@
 			</p>
 		</div></div>
   </div>
-  </div>
+  </div> 
   <div style="
      
     
@@ -64,7 +68,37 @@
     document.getElementById("qtcolor").style.color = localStorage.qtcolor;
   </script>
   <script src="jquery.js"></script>
+  <script>
+    $.ajax({
+        url: 'https://api.imlazy.ink/mcapi/?name=Minecraft%20%E6%9C%8D%E5%8A%A1%E5%99%A8&host=play.simpfun.cn:19924&type=json',
+        type: 'get',
+        dataType: 'json',  
+        crossDomain: true,
+         success: function(response, status){
+                        console.log('请求生存服数据：' + status);
+                        console.log(response);
+                        $('#scplayer').replaceWith(response.players_online + ' 人');//在线玩家
+                        $('#scstatus').replaceWith(response.status);//服务器开启或关闭状态
+                    },
+        data: {},
+    });
+    </script>
   <script> $("#page1").load("tou.html")</script>
+  <script>
+   var a = document.getElementById("online")
+   var b = document.getElementById("playernow")
+    setInterval(function () { 
+                 if(a.innerHTML == "在线"){
+                  a.style.color = "greenyellow"
+                 }else{if(a.innerHTML=="离线")
+                  a.style.color = "red"
+                 }
+                 if(b.innerHTML == "服务器在线人数:null 人")
+                 {
+                  b.style.display = "none"
+                 }
+                 
+        }, 1000);</script>
 </body>
 
 </html>
